@@ -4,8 +4,9 @@ end
 
 def my_hash
   # return a valid hash with any key/value pair of your choice
-  hash = Hash.new
-  hash["example"] = "there you go"
+  hash ={
+    example: "there you go"
+  }
 end
 
 def pioneer
